@@ -76,23 +76,6 @@
             the contents of this method with the code editor.
             </summary>
         </member>
-        <member name="F:WorkshopAccounting.View.Forms.Form_StatesEdit.components">
-            <summary>
-            Required designer variable.
-            </summary>
-        </member>
-        <member name="M:WorkshopAccounting.View.Forms.Form_StatesEdit.Dispose(System.Boolean)">
-            <summary>
-            Clean up any resources being used.
-            </summary>
-            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        </member>
-        <member name="M:WorkshopAccounting.View.Forms.Form_StatesEdit.InitializeComponent">
-            <summary>
-            Required method for Designer support - do not modify
-            the contents of this method with the code editor.
-            </summary>
-        </member>
         <member name="F:WorkshopAccounting.View.MainForm.components">
             <summary>
             Required designer variable.

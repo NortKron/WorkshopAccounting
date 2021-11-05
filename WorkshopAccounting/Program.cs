@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using WorkshopAccounting.Presenter;
 using WorkshopAccounting.View;
 
 namespace WorkshopAccounting
@@ -19,7 +20,12 @@ namespace WorkshopAccounting
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+
+            MainForm mainForm = new();
+            MainPresenter presenter = new(mainForm);
+
+            Application.Run(mainForm);
+            //Application.Run(new MainForm());
         }
     }
 }
